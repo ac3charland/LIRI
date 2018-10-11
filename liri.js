@@ -1,5 +1,5 @@
 require("dotenv").config();
-import * as keys from 'keys.js';
+var keys = require("./keys.js");
 
 var command = process.argv[2];
 var argument = process.argv[3];
